@@ -31,3 +31,12 @@ It defines a JSON schema for release certificates and provides tools for verifyi
     "url": "https://cloudtrack.me/verify/3baed3b1-62d2-4f7b-8700-17e20be6c300"
   }
 }
+```
+
+## 🚀 Getting Started
+```
+git clone https://github.com/cloudtrackme/cloudtrack-cert.git
+cd cloudtrack-cert
+go run verify.go ./examples/sample-cert.json
+```
+
